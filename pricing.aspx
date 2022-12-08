@@ -51,10 +51,8 @@
            <li><a href="index.aspx" class="active">Home</a></li>
           <li><a href="about.aspx">About</a></li>
           <li><a href="services.aspx">Services</a></li>
-          <li><a href="pricing.aspx">Pricing</a></li>
-          
+          <li><a href="pricing.aspx">Pricing</a></li>        
           <li><a href="contact.aspx">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
         </ul>
       </nav>
 
@@ -110,9 +108,11 @@
               <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
             </ul>
           </div>
+            <form method="post" runat="server">
           <div class="col-lg-3 d-flex align-items-center justify-content-center">
-            <div class="text-center"><a href="#" class="buy-btn">Buy Now</a></div>
+            <div class="text-center"> <asp:Button ID="Button1" runat="server" Text="Buy Now" class="buy-btn" /></div>
           </div>
+                </form>
         </div>
 
         <div class="row gy-4 pricing-item featured mt-4" data-aos="fade-up" data-aos-delay="200">

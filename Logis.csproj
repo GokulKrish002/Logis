@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\Styles.css" />
     <Content Include="assets\img\about.jpg" />
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\cargo-service.jpg" />
@@ -154,6 +155,7 @@
     <Content Include="assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="contact.aspx" />
     <Content Include="index.aspx" />
+    <Content Include="login.aspx" />
     <Content Include="pricing.aspx" />
     <Content Include="services.aspx" />
     <Content Include="service_details.aspx" />
@@ -181,6 +183,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
     </Compile>
     <Compile Include="pricing.aspx.cs">
       <DependentUpon>pricing.aspx</DependentUpon>

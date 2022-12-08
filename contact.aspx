@@ -41,7 +41,6 @@
           <li><a href="services.aspx">Services</a></li>
           <li><a href="pricing.aspx">Pricing</a></li>
           <li><a href="contact.aspx" class="active">Contact</a></li>
-          <li><a class="get-a-quote" href="get-a-quote.html">Get a Quote</a></li>
         </ul>
       </nav>
 
@@ -62,7 +61,7 @@
       <nav>
         <div class="container">
           <ol>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.aspx">Home</a></li>
             <li>Contact</li>
           </ol>
         </div>
@@ -93,7 +92,7 @@
                 <h4>Email:</h4>
                 <p>info@example.com</p>
               </div>
-            </div>>
+            </div>
 
             <div class="info-item d-flex">
               <i class="bi bi-phone flex-shrink-0"></i>
