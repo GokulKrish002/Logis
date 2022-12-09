@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="login.aspx.cs" Inherits="Logis.login" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="Logis.register" %>
 
 <!DOCTYPE html>
 
@@ -23,15 +23,22 @@
           </h4>
           <form class="form-box px-3" runat="server" method="post">
             <div class="form-input">
-              <span><i class="fa fa-envelope-o"></i></span>
-                <asp:TextBox ID="TextBox1" runat="server"  type="email" name="" placeholder="Email Address" tabindex="10"></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server"  type="name" name="" placeholder="name" ></asp:TextBox>
             </div>
             <div class="form-input">
-              <span><i class="fa fa-key"></i></span>
-                <asp:TextBox ID="TextBox2" runat="server" type="password" name="" placeholder="Password"></asp:TextBox>
+                <asp:TextBox ID="TextBox2" runat="server" type="email" name="" placeholder="Email"></asp:TextBox>
+            </div>
+               <div class="form-input">
+                <asp:TextBox ID="TextBox3" runat="server" type="password" name="" placeholder="Password"></asp:TextBox>
+            </div>
+               <div class="form-input">
+                <asp:TextBox ID="TextBox4" runat="server" type="age" name="" placeholder="age"></asp:TextBox>
+            </div>
+               <div class="form-input">
+                <asp:TextBox ID="TextBox5" runat="server" type="number" name="" placeholder="phone"></asp:TextBox>
             </div>
             <div class="mb-3">
-                  <asp:Button ID="Button1" runat="server" Text="Login" type="submit" class="btn btn-block text-uppercase" OnClick="Button1_Click" />
+                  <asp:Button ID="Button1" runat="server" Text="Register" type="submit" class="btn btn-block text-uppercase" OnClick="Button1_Click" />
             </div>
               <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 
@@ -68,9 +75,9 @@
             <hr class="my-4">
 
             <div class="text-center mb-2">
-              Don't have an account?
-              <a href="register.aspx" class="register-link">
-                Register here
+              Already have an account?
+              <a href="login.aspx" class="register-link">
+                Login here
               </a>
             </div>
           </form>

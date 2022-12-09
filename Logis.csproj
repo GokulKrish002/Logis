@@ -69,7 +69,6 @@
   <ItemGroup>
     <Content Include="about.aspx" />
     <Content Include="assets\css\main.css" />
-    <Content Include="assets\css\Styles.css" />
     <Content Include="assets\img\about.jpg" />
     <Content Include="assets\img\apple-touch-icon.png" />
     <Content Include="assets\img\cargo-service.jpg" />
@@ -154,12 +153,15 @@
     <Content Include="assets\vendor\swiper\swiper-bundle.min.css" />
     <Content Include="assets\vendor\swiper\swiper-bundle.min.js" />
     <Content Include="contact.aspx" />
+    <Content Include="assets\img\img.jpg" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="pricing.aspx" />
+    <Content Include="register.aspx" />
     <Content Include="services.aspx" />
     <Content Include="service_details.aspx" />
     <Content Include="shipping.aspx" />
+    <Content Include="assets\css\style.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -199,6 +201,13 @@
       <DependentUpon>pricing.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
     <Compile Include="services.aspx.cs">
       <DependentUpon>services.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

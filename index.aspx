@@ -55,9 +55,8 @@
           <li><a href="about.aspx">About</a></li>
           <li><a href="services.aspx">Services</a></li>
           <li><a href="pricing.aspx">Pricing</a></li>
-         
-          <li><a href="contact.aspx">Contact</a></li>
-          <!---<li><a class="get-a-quote" href="get-a-quote.aspx">Get a Quote</a></li>--->
+          <li><a href="contact.aspx">Contact</a></li> 
+          <li><asp:Label ID="Label1" runat="server" Text="Label" class="get-a-quote"></asp:Label></li>
         </ul>
       </nav>
 
