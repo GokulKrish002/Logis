@@ -17,7 +17,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" >
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
@@ -81,26 +80,46 @@
         .auto-style28 {
             height: 26px;
         }
-        .auto-style29 {
+        .auto-style32 {
+            width: 366px;
+            height: 50px;
+        }
+        .auto-style33 {
+            width: 369px;
+            height: 50px;
+        }
+        .auto-style34 {
             width: 51px;
-            height: 43px;
+            height: 50px;
         }
-        .auto-style30 {
-            width: 805px;
-            height: 43px;
+        .auto-style35 {
+            height: 50px;
         }
-        .auto-style31 {
-            height: 43px;
+        .auto-style38 {
+            width: 51px;
+            height: 38px;
+        }
+        .auto-style39 {
+            height: 38px;
+        }
+        .auto-style40 {
+            width: 51px;
+            height: 135px;
+        }
+        .auto-style41 {
+            height: 135px;
+        }
+        .auto-style42 {
+            width: 51px;
+            height: 37px;
+        }
+        .auto-style43 {
+            height: 37px;
         }
     </style>
 </head>
-
 <body>
-
-  
     <form id="form1" runat="server">
-
-  
   <header id="header" class="header d-flex align-items-center fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
@@ -143,24 +162,22 @@
         </div>
       </nav>
     </div>
-
-   
-    
-
         <table class="auto-style4">
             <tr>
                 <td class="auto-style17"></td>
-                <td class="auto-style18">Hello Mohan</td>
+                <td class="auto-style18" colspan="2">Hello
+                    <asp:Label ID="Label_Name" runat="server" Text="Name"></asp:Label>
+                </td>
                 <td class="auto-style19"></td>
             </tr>
             <tr>
                 <td class="auto-style20"></td>
-                <td class="auto-style21">From address</td>
+                <td class="auto-style21" colspan="2">From address :</td>
                 <td class="auto-style22"></td>
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style21">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
 &nbsp;&nbsp; email&nbsp;
                     <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
@@ -171,7 +188,7 @@
             </tr>
             <tr>
                 <td class="auto-style15">&nbsp;</td>
-                <td class="auto-style9">
+                <td class="auto-style9" colspan="2">
                     <asp:Label ID="Label3" runat="server" Text="address"></asp:Label>
                     <asp:TextBox ID="TextBox3" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
@@ -185,17 +202,17 @@
             </tr>
             <tr>
                 <td class="auto-style26"></td>
-                <td class="auto-style27"></td>
+                <td class="auto-style27" colspan="2"></td>
                 <td class="auto-style28"></td>
             </tr>
             <tr>
                 <td class="auto-style20"></td>
-                <td class="auto-style21">To address</td>
+                <td class="auto-style21" colspan="2">To address :</td>
                 <td class="auto-style22"></td>
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style21">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
 &nbsp;&nbsp; email&nbsp;
                     <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
@@ -206,7 +223,7 @@
             </tr>
             <tr>
                 <td class="auto-style16">&nbsp;</td>
-                <td class="auto-style10">
+                <td class="auto-style10" colspan="2">
                     <asp:Label ID="Label4" runat="server" Text="address"></asp:Label>
                     <asp:TextBox ID="TextBox4" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
@@ -219,21 +236,37 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style16">&nbsp;</td>
-                <td class="auto-style10">
+                <td class="auto-style42"></td>
+                <td class="auto-style43" colspan="3">
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style34"></td>
+                <td class="auto-style33">Weight&nbsp; </td>
+                <td class="auto-style32">Dimensions</td>
+                <td class="auto-style35"></td>
+                <td class="auto-style35"></td>
+            </tr>
+            <tr>
+                <td class="auto-style38"></td>
+                <td class="auto-style39" colspan="3">
+                    <asp:TextBox ID="TextBox13" runat="server" Height="29px" Width="238px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label7" runat="server" Text="Height"></asp:Label>
+                    <asp:TextBox ID="TextBox14" runat="server" Height="30px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label8" runat="server" Text="Length"></asp:Label>
+                    <asp:TextBox ID="TextBox15" runat="server" Height="30px"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;
+                    <asp:Label ID="Label9" runat="server" Text="Width"></asp:Label>
+                    <asp:TextBox ID="TextBox16" runat="server" Height="30px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style40"></td>
+                <td class="auto-style41" colspan="3">
                     <asp:Button ID="Button1" runat="server" Text="Describe your shipment" />
                 </td>
-                <td class="auto-style11">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style29"></td>
-                <td class="auto-style30">Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dimensions</td>
-                <td class="auto-style31">&nbsp;</td>
-            </tr>
-            <tr>
-                <td class="auto-style16">&nbsp;</td>
-                <td class="auto-style10">&nbsp;</td>
-                <td class="auto-style11">&nbsp;</td>
             </tr>
         </table>
 
