@@ -18,10 +18,10 @@ namespace Logis
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+            DbConnection database = new DbConnection();
+            SqlConnection con = database.connect();
             try
             {
-                SqlConnection con = new SqlConnection(@"Data Source=GOKULSVICTUS\SQLEXPRESS;Initial Catalog=Logis_db;Integrated Security=True");
-                con.Open();
                 SqlCommand cmd = new SqlCommand("logis_search", con);
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@mail", TextBox1.Text);
@@ -44,12 +44,15 @@ namespace Logis
             catch (Exception ex)
             {
                 Label1.Text = (ex.Message);
+                con.Close();
             }
             finally
             {
                 TextBox1.Text = "";
                 TextBox2.Text = "";
+                con.Close();
             }
+            con.Close();
         }
     }
 }

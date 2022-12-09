@@ -13,42 +13,52 @@ namespace Logis
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection(@"Data Source=GOKULSVICTUS\SQLEXPRESS;Initial Catalog=Logis_db;Integrated Security=True");
-            con.Open();
-            using (SqlCommand cmd = new SqlCommand("logis_tbl_insert", con))
+            DbConnection database = new DbConnection();
+            SqlConnection con = database.connect();
+            try
             {
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@name",TextBox1.Text);
-                cmd.Parameters.AddWithValue("@Email",TextBox2.Text);
-                cmd.Parameters.AddWithValue("@password", TextBox3.Text);
-                cmd.Parameters.AddWithValue("@age", Convert.ToInt32(TextBox4.Text));
-                cmd.Parameters.AddWithValue("@phone", Convert.ToInt32(TextBox5.Text));
-                int i = cmd.ExecuteNonQuery();
-                con.Close();
-                if (i != 0)
+                using (SqlCommand cmd = new SqlCommand("logis_tbl_insert", con))
                 {
-                    TextBox1.Text = "";
-                    TextBox2.Text = "";
-                    TextBox3.Text = "";
-                    TextBox4.Text = "";
-                    TextBox5.Text = "";
-                    Label1.Text = "Registered successfully login now";
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@name", TextBox1.Text);
+                    cmd.Parameters.AddWithValue("@Email", TextBox2.Text);
+                    cmd.Parameters.AddWithValue("@password", TextBox3.Text);
+                    cmd.Parameters.AddWithValue("@age", Convert.ToInt32(TextBox4.Text));
+                    cmd.Parameters.AddWithValue("@phone", Convert.ToInt32(TextBox5.Text));
+                    int i = cmd.ExecuteNonQuery();
+                    con.Close();
+                    if (i != 0)
+                    {
+                        TextBox1.Text = "";
+                        TextBox2.Text = "";
+                        TextBox3.Text = "";
+                        TextBox4.Text = "";
+                        TextBox5.Text = "";
+                        Label1.Text = "Registered successfully login now";
+                    }
+                    else
+                    {
+                        TextBox1.Text = "";
+                        TextBox2.Text = "";
+                        TextBox3.Text = "";
+                        TextBox4.Text = "";
+                        TextBox5.Text = "";
+                        Label1.Text = "There is an error while registering";
+                        con.Close();
+                    }
                 }
-                else
-                {
-                    TextBox1.Text = "";
-                    TextBox2.Text = "";
-                    TextBox3.Text = "";
-                    TextBox4.Text = "";
-                    TextBox5.Text = "";
-                    Label1.Text = "There is an error while registering";
-                }
+
             }
+            catch (Exception ex)
+            {
+                Label1.Text=(ex.Message);
+                con.Close();
+            }
+            con.Close();
         }
-    }
-}
+}   }
