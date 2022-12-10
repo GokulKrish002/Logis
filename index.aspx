@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Logis Bootstrap Template - Index</title>
+  <title>Logis Team 16</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/favicon.png" rel="icon">
@@ -63,12 +63,9 @@
       <div class="row gy-4 d-flex justify-content-between">
         <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
           <h2 data-aos="fade-up">Your Lightning Fast Delivery Partner</h2>
-          <p data-aos="fade-up" data-aos-delay="100">Facere distinctio molestiae nisi fugit tenetur repellat non praesentium nesciunt optio quis sit odio nemo quisquam. eius quos reiciendis eum vel eum voluptatem eum maiores eaque id optio ullam occaecati odio est possimus vel reprehenderit</p>
+          <p data-aos="fade-up" data-aos-delay="100">To make a distinction of trouble unless he flees, he is held, repels, not present, they do not know who the option is, hate, no one, no one. those who reject him or him the pleasure of his elders and that option is no darkened hatred we can or will criticize</p>
 
-         <!--- <div action="#" class="form-search d-flex align-items-stretch mb-3" data-aos="fade-up" data-aos-delay="200">
-            <input type="text" class="form-control" placeholder="Track Your Shipment">
-              <asp:Button class="btn btn-primary" runat="server" Text="Search" />
-          </div>--->
+       
 
           <div class="row gy-4" data-aos="fade-up" data-aos-delay="400">
 
@@ -122,28 +119,26 @@
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
             <div>
-              <h4 class="title">Lorem Ipsum</h4>
-              <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-              <a href="service-details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">Product Weight</h4>
+              <p class="description">The pleasures of the spoiled and corrupted do not foresee the pains and troubles they are about to experience, blinded by lust</p>
+              <a href="service_details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
-          
-
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck"></i></div>
             <div>
-              <h4 class="title">Dolor Sitema</h4>
-              <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-              <a href="service-details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">pain system</h4>
+              <p class="description">I'm sorry, but no one should try any kind of exercise unless he has some benefit from it</p>
+              <a href="service_details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="fa-solid fa-truck-ramp-box"></i></div>
             <div>
-              <h4 class="title">Sed ut perspiciatis</h4>
-              <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-              <a href="service-details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <h4 class="title">But as you observe</h4>
+              <p class="description">Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding</p>
+              <a href="service_details.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -162,28 +157,29 @@
           <div class="col-lg-6 content order-last  order-lg-first">
             <h3>About Us</h3>
             <p>
-              Dolor iure expedita id fuga asperiores qui sunt consequatur minima. Quidem voluptas deleniti. Sit quia molestiae quia quas qui magnam itaque veritatis dolores. Corrupti totam ut eius incidunt reiciendis veritatis asperiores placeat.
+              The pain of the right expedient is that the flight is rougher than those who are of the least consequence. Some kind of pleasure is softened. Let it be because of the troubles, because those who suffer the great pains of the truth. It pleases the whole of the corrupt to reject the truth as its fall.
+
             </p>
             <ul>
               <li data-aos="fade-up" data-aos-delay="100">
                 <i class="bi bi-diagram-3"></i>
                 <div>
-                  <h5>Ullamco laboris nisi ut aliquip consequat</h5>
-                  <p>Magni facilis facilis repellendus cum excepturi quaerat praesentium libre trade</p>
+                  <h5>Ullamco laboris needs to get a little consequent</h5>
+                  <p>It is very easy to be repulsed when he is about to receive the book of the present</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay="200">
                 <i class="bi bi-fullscreen-exit"></i>
                 <div>
-                  <h5>Magnam soluta odio exercitationem reprehenderi</h5>
-                  <p>Quo totam dolorum at pariatur aut distinctio dolorum laudantium illo direna pasata redi</p>
+                  <h5>A great exercise in unbridled hatred</h5>
+                  <p>Wherefore the whole of the pains should be spared, or the distinction of the pains of the praisers should return after having passed through that diren</p>
                 </div>
               </li>
               <li data-aos="fade-up" data-aos-delay="300">
                 <i class="bi bi-broadcast"></i>
                 <div>
-                  <h5>Voluptatem et qui exercitationem</h5>
-                  <p>Et velit et eos maiores est tempora et quos dolorem autem tempora incidunt maxime veniam</p>
+                  <h5>Pleasure and exercise</h5>
+                  <p>And the times are greater for them, and for those whom the times cause pain, I will forgive them the most</p>
                 </div>
               </li>
             </ul>
@@ -209,7 +205,7 @@
                 <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Storage</a></h3>
-              <p>Cumque eos in qui numquam. Aut aspernatur perferendis sed atque quia voluptas quisquam repellendus temporibus itaqueofficiis odit</p>
+              <p>And those in whom never. Or he is repulsed by bearing it, but because he hates the pleasure of being repulsed at times and therefore duties</p>
             </div>
           </div>
 
@@ -219,7 +215,7 @@
                 <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Logistics</a></h3>
-              <p>Asperiores provident dolor accusamus pariatur dolore nam id audantium ut et iure incidunt molestiae dolor ipsam ducimus occaecati nisi</p>
+              <p>The harsher ones provide for the pain, we charge it with pain, for that of those who dare, as well as right, troubles fall, we lead the pain itself, unless we are blinded.</p>
             </div>
           </div>
 
@@ -229,7 +225,7 @@
                 <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Cargo</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+              <p>Said how and the like because the architect is to reject them either by reason or by himself</p>
             </div>
           </div>
 
@@ -239,7 +235,7 @@
                 <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Trucking</a></h3>
-              <p>Dicta quam similique quia architecto eos nisi aut ratione aut ipsum reiciendis sit doloremque oluptatem aut et molestiae ut et nihil</p>
+              <p>Said how and the like because the architect is to reject them either by reason or by himself</p>
             </div>
           </div>
 
@@ -249,7 +245,7 @@
                 <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Packaging</a></h3>
-              <p>Illo consequuntur quisquam delectus praesentium modi dignissimos facere vel cum onsequuntur maiores beatae consequatur magni voluptates</p>
+              <p>And those in whom never. Or he is repulsed by bearing it, but because he hates the pleasure of being repulsed at times and therefore duties</p>
             </div>
           </div>
 
@@ -259,7 +255,7 @@
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
               </div>
               <h3><a href="service-details.aspx" class="stretched-link">Warehousing</a></h3>
-              <p>Quas assumenda non occaecati molestiae. In aut earum sed natus eatae in vero. Ab modi quisquam aut nostrum unde et qui est non quo nulla</p>
+              <p>What must be assumed not to be blinded by trouble. In either of them, but the birth of Eata in truth. From the way any one of us comes from and who is not where there is none</p>
             </div>
           </div>
 
@@ -275,7 +271,7 @@
         <div class="row justify-content-center">
           <div class="col-lg-8 text-center">
             <h3>Call To Action</h3>
-            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come out; they are in fault who abandon their duties and soften their hearts, that is toil.</p>
             <a class="cta-btn" href="#">Call To Action</a>
           </div>
         </div>
@@ -291,15 +287,15 @@
             <img src="assets/img/features-1.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
-            <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+            <h3>They provide for the most worthy pleasures, as if the pleasures of the body were to be assumed.</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+             It is important to take care of the patient, the patient will be followed by the patient, but it will happen at the same time as labor and pain
+               some great things
             </p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Ullam est qui quos consequatur eos accusamus.</li>
+              <li><i class="bi bi-check"></i> Ullamco laboris required and aliquip ex and comfortable consequat.</li>
+              <li><i class="bi bi-check"></i> Doubts or irrure pain in reprimands in the pleasure he wants.</li>
+              <li><i class="bi bi-check"></i> There is no one who can blame them.</li>
             </ul>
           </div>
         </div>
@@ -309,15 +305,13 @@
             <img src="assets/img/features-2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1">
-            <h3>Corporis temporibus maiores provident</h3>
+            <h3>They provide for older bodies at times</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              It is important to take care of the patient, the patient will be followed by the patient, but it will happen at the same time as labor and pain
+               some great things
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+             I do not work at all except to get some advantage out of it. Doubts or irure pain in reprimanding in pleasure
             </p>
           </div>
         </div>
@@ -327,12 +321,12 @@
             <img src="assets/img/features-3.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7">
-            <h3>Sunt consequatur ad ut est nulla consectetur reiciendis animi voluptas</h3>
-            <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>
+            <h3>There are consequences so that there is no consequence for rejecting the pleasure of the soul</h3>
+            <p>To please lust, to please lust is the fault itself. Chosen because the smallest that There are often hates or because pleasure here pleasure pain and suffering.</p>
             <ul>
-              <li><i class="bi bi-check"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bi bi-check"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-              <li><i class="bi bi-check"></i> Facilis ut et voluptatem aperiam. Autem soluta ad fugiat.</li>
+              <li><i class="bi bi-check"></i> Ullamco laboris required and aliquip ex and comfortable consequat.</li>
+              <li><i class="bi bi-check"></i> Doubts or irrure pain in reprimands in the pleasure he wants.</li>
+              <li><i class="bi bi-check"></i> Easy to open and pleasure. However, he was released to flee.</li>
             </ul>
           </div>
         </div>
@@ -342,15 +336,14 @@
             <img src="assets/img/features-4.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-md-7 order-2 order-md-1">
-            <h3>Quas et necessitatibus eaque impedit ipsum animi consequatur incidunt in</h3>
+            <h3>These and the needs and those that prevent the very consequences of the mind fall into</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              It is important to take care of the patient, the patient will be followed by the patient, but it will happen at the same time as labor and pain
+               some great things
             </p>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum
+             I do not work at all except to get some advantage out of it. Doubts or irure pain in reprimanding in pleasure
+               He wants to be a hair, let him run away from the pain, and no one will give birth. Unless they are blinded by lust, they do not come out.
             </p>
           </div>
         </div>
@@ -376,10 +369,10 @@
               <h3>Free Plan</h3>
               <h4><sup>$</sup>0<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li class="na"><i class="bi bi-x"></i> <span>Pharetra massa massa ultricies</span></li>
+                <li><i class="bi bi-check"></i> What a coaching of life</li>
+                <li><i class="bi bi-check"></i>Not even the price of Feugiat nisl</li>
+                <li><i class="bi bi-check"></i> No one would use the yard at the weekend</li>
+                <li class="na"><i class="bi bi-x"></i> <span>A mass of ultricies</span></li>
                 <li class="na"><i class="bi bi-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
               </ul>
        
@@ -393,11 +386,11 @@
               <h3>Business Plan</h3>
               <h4><sup>$</sup>29<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bi bi-check"></i> What a coaching of life</li>
+                <li><i class="bi bi-check"></i> Not even the price of Feugiat nisl</li>
+                <li><i class="bi bi-check"></i> No one would use the yard at the weekend</li>
+                <li><i class="bi bi-check"></i> A mass of ultricies</li>
+                <li><i class="bi bi-check"></i>use the yard at the weekend</li>
               </ul>
 
                 <asp:Button href="#" class="buy-btn" runat="server" Text="Buy Now" />
@@ -409,11 +402,11 @@
               <h3>Developer Plan</h3>
               <h4><sup>$</sup>49<span> / month</span></h4>
               <ul>
-                <li><i class="bi bi-check"></i> Quam adipiscing vitae proin</li>
-                <li><i class="bi bi-check"></i> Nec feugiat nisl pretium</li>
-                <li><i class="bi bi-check"></i> Nulla at volutpat diam uteera</li>
-                <li><i class="bi bi-check"></i> Pharetra massa massa ultricies</li>
-                <li><i class="bi bi-check"></i> Massa ultricies mi quis hendrerit</li>
+                <li><i class="bi bi-check"></i> What a coaching of life</li>
+                <li><i class="bi bi-check"></i> Not even the price of Feugiat nisl</li>
+                <li><i class="bi bi-check"></i> No one would use the yard at the weekend</li>
+                <li><i class="bi bi-check"></i> A mass of ultricies</li>
+                <li><i class="bi bi-check"></i> use the yard at the weekend</li>
               </ul>
 
                 <asp:Button href="#" class="buy-btn" runat="server" Text="Buy Now" />
@@ -441,7 +434,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  For the target group, the result is worth taking care of until the airline takes over. The accusers, however, need that, and need some discipline. Some faintness, but always a smile.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -457,7 +450,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                 Export time, however, I was for the evils of the evils that I was going to be angry with the effort that I was going to be the one who was the one who was going to be the one who wanted to be.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -473,7 +466,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  For if I did not export a hair from your house, which are great, none of which I would bring to your house for a short time, I would have been my home, or I would have been the smallest.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -489,7 +482,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  For I was fleeing from the pain of pain, there is no fault in the export of many.
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -505,7 +498,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                 Who are some of them whom I will read?
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -535,12 +528,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Non consectetur a erat nam at lectus urna duis?
+                    Will it not be followed by a was for but a bed urn two?
                   </button>
                 </h3>
                 <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    The price of the product is very low. Time targeted urn id volutpat lacus laoreet will not be taken care of pregnant. Venenatis bed great fringilla urn porttitor rhoncus pain pure not.
                   </div>
                 </div>
               </div>
@@ -549,12 +542,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                    Does the chocolate burn for the disease now in the mouths of the children?
                   </button>
                 </h3>
                 <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    The pain should be followed by the education of the people living with the disease. Sometimes it's just a matter of time. Fragilla phasellus faucibus chocolate eleifend until the price. It's a great asset for the kids. Mauris ultrices eros in the course of the university mass tincidunt dui.
                   </div>
                 </div>
               </div>
@@ -563,12 +556,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi?
+                   Is the pain going to be followed by the education of the people who live in the disease?
                   </button>
                 </h3>
                 <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    Eleifend mi in no place to put any concern for the basketball arrows of the clinic. For the whole element of the pillow. If there is no quiver in the diam, the players will receive it. Rutrum terlus pellentesque eu tincidunt. Bed urn two valley valley valley. Urna employee at the element of easy football but hate the disease who
                   </div>
                 </div>
               </div>
@@ -577,13 +570,13 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                   And I hate the time of clinical trials. Are some of my teenagers in the middle of nowhere?
                   </button>
                 </h3>
                 <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    The pain should be followed by the education of the people living with the disease. Sometimes it's just a matter of time. Fragilla phasellus faucibus chocolate eleifend until the price. It's a great asset for the kids. Mauris ultrices eros in the course of the university mass tincidunt dui.
                   </div>
                 </div>
               </div>
@@ -592,12 +585,12 @@
                 <h3 class="accordion-header">
                   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-5">
                     <i class="bi bi-question-circle question-icon"></i>
-                    Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                    Time for the kids to have some salad and a salad?
                   </button>
                 </h3>
                 <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
                   <div class="accordion-body">
-                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                   It was a nuisance from the targets but it was an advantage for the students. It is worth hanging on before. Now, even a smile is a good way to draw a layer of curtains. It should be a lot of fans to drink. Pure pregnant who flatters the ugly course
                   </div>
                 </div>
               </div>
@@ -619,7 +612,7 @@
           <a href="index.aspx" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Tomorrow fermentum hate eu feugiat lide par naso tierra Just need nada land see great derita valies darta donna mare fermentum aculis eu no diam phasellus.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -641,23 +634,26 @@
 
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
-          <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
+           <ul>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Available Transport</a></li>
             <li><a href="#">Product Management</a></li>
             <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Import Export</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
           <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            A108 Porur<br>
+            Tamil Nadu, TN 600116<br>
+            India <br><br>
+              <strong>Phone:</strong> +91 8072263008<br>
+              <strong>Phone:</strong> +91 6379447044<br>
+              <strong>Phone:</strong> +91 8838444907<br>
+              <strong>Phone:</strong> +91 9524296826<br>
+            <strong>Email:</strong> gsms@gmail.com<br>
           </p>
 
         </div>
@@ -671,7 +667,7 @@
       </div>
       <div class="credits">
         
-        Designed by <a href="#">BootstrapMade</a>
+        Designed by <a href="#">GSMS LOGISTIC</a>
       </div>
     </div>
 

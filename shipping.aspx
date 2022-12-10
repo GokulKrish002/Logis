@@ -8,7 +8,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Logis Bootstrap Template - Get a Quote</title>
+  <title>Logis Team 16</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
   <link href="assets/img/favicon.png" rel="icon">
@@ -55,7 +55,6 @@
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <h2>Get a Quote</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
             </div>
           </div>
         </div>
@@ -79,7 +78,7 @@
           <div class="col-lg-7">
             <form action="forms/quote.php" method="post" class="php-email-form">
               <h3>Get a quote</h3>
-              <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+              <p>Or we hate the hard work and here the pleasure. Inventor's whole life. Things to be repelled for linead late park flows.</p>
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -146,7 +145,7 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Tomorrow fermentum hate eu feugiat lide par naso tierra Just need nada land see great derita valies darta donna mare fermentum aculis eu no diam phasellus.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -169,22 +168,25 @@
         <div class="col-lg-2 col-6 footer-links">
           <h4>Our Services</h4>
           <ul>
-            <li><a href="#">Web Design</a></li>
-            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Available Transport</a></li>
             <li><a href="#">Product Management</a></li>
             <li><a href="#">Marketing</a></li>
-            <li><a href="#">Graphic Design</a></li>
+            <li><a href="#">Import Export</a></li>
           </ul>
         </div>
 
         <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
           <h4>Contact Us</h4>
-          <p>
-            A108 Adam Street <br>
-            New York, NY 535022<br>
-            United States <br><br>
-            <strong>Phone:</strong> +1 5589 55488 55<br>
-            <strong>Email:</strong> info@example.com<br>
+            <p>
+            A108 Porur<br>
+            Tamil Nadu, TN 600116<br>
+            India <br><br>
+              <strong>Phone:</strong> +91 8072263008<br>
+              <strong>Phone:</strong> +91 6379447044<br>
+              <strong>Phone:</strong> +91 8838444907<br>
+              <strong>Phone:</strong> +91 9524296826<br>
+            <strong>Email:</strong> gsms@gmail.com<br>
           </p>
 
         </div>
@@ -197,7 +199,7 @@
         &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://bootstrapmade.com/">GSMS LOGISTIC</a>
       </div>
     </div>
 

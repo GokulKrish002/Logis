@@ -31,7 +31,7 @@
                 <asp:TextBox ID="TextBox2" runat="server" type="password" name="" placeholder="Password"></asp:TextBox>
             </div>
             <div class="mb-3">
-                  <asp:Button ID="Button1" runat="server" Text="Login" type="submit" class="btn btn-block text-uppercase" OnClick="Button1_Click" />
+                  <asp:Button ID="Button1" runat="server" Text="Login" type="submit" class="btn btn-block text-uppercase btn btn-primary translate-middle rounded-pill" OnClick="Button1_Click" />
             </div>
               <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 
@@ -45,7 +45,7 @@
               or login with
             </div>
 
-            <div class="row mb-3">
+            <!--<div class="row mb-3">
               <div class="col-4">
                 <a href="#" class="btn btn-block btn-social btn-facebook">
                   facebook
@@ -63,7 +63,7 @@
                   twitter
                 </a>
               </div>
-            </div>
+            </div>-->
 
             <hr class="my-4">
 

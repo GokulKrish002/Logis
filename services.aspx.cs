@@ -21,37 +21,68 @@ namespace Logis
         {
             try
             {
-                DbConnection database = new DbConnection();
-                SqlConnection con = database.connect();
-                SqlCommand cmd = new SqlCommand("insertValues", con);
-                cmd.CommandType = CommandType.StoredProcedure;
-                cmd.Parameters.AddWithValue("@Sname", Text_SName.Text);
-                cmd.Parameters.AddWithValue("@Semail", Text_Semail.Text);
-                cmd.Parameters.AddWithValue("@Sphone", Text_SPhone.Text);
-                cmd.Parameters.AddWithValue("@Saddress", Text_SAddress.Text);
-                cmd.Parameters.AddWithValue("@Scity", Text_SCity.Text);
-                cmd.Parameters.AddWithValue("@Spincode", Text_SPincode.Text);
-                cmd.Parameters.AddWithValue("@Rname", Text_RName.Text);
-                cmd.Parameters.AddWithValue("@Remail", Text_REmail.Text);
-                cmd.Parameters.AddWithValue("@Rphone", Text_RPhone.Text);
-                cmd.Parameters.AddWithValue("@Raddress", Text_RAddress.Text);
-                cmd.Parameters.AddWithValue("@Rcity", Text_RCity.Text);
-                cmd.Parameters.AddWithValue("@Rpincode", Text_SPincode.Text);
-                cmd.Parameters.AddWithValue("@weight", Text_Weight.Text);
-                cmd.Parameters.AddWithValue("@height", Text_Height.Text);
-                cmd.Parameters.AddWithValue("@length", Text_Length.Text);
-                cmd.Parameters.AddWithValue("@width", Text_Width.Text);
-                int i = cmd.ExecuteNonQuery();
-                con.Close();
-                if (i != 0)
+                Validation obj = new Validation();
+                bool sname, smail, snum, scity, spin, rname, rmail, rnum, rcity, rpin;
+                sname = obj.ValidateName(Text_SName.Text);
+                smail = obj.ValidateEmail(Text_Semail.Text);
+                snum = obj.ValidateNumber(Text_SPhone.Text);
+                scity = obj.ValidateName(Text_SCity.Text);
+                spin = obj.ValidateNumber(Text_SPincode.Text);
+                rname = obj.ValidateName(Text_RName.Text);
+                rmail = obj.ValidateEmail(Text_REmail.Text);
+                rnum = obj.ValidateNumber(Text_RPhone.Text);
+                rcity = obj.ValidateName(Text_RCity.Text);
+                rpin = obj.ValidateNumber(Text_RPincode.Text);
+                if (sname && rname == false)
                 {
-                    Label_Result.Text = "Shippment Requested Success Fully..!";
-                    con.Close();
+                    Label_Result.Text = "type the correct name";
+                }
+                else if (rmail && smail == false)
+                {
+                    Label_Result.Text = "type the correct name";
+                }
+                else if (rcity && scity == false)
+                {
+                    Label_Result.Text = "type the correct name";
+                }
+                else if (rpin && spin == false)
+                {
+                    Label_Result.Text = "type the correct name";
                 }
                 else
                 {
-                    Label_Result.Text = "There is an error while Requesying Shippment..!";
+                    DbConnection database = new DbConnection();
+                    SqlConnection con = database.connect();
+                    SqlCommand cmd = new SqlCommand("insertValues", con);
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Sname", Text_SName.Text);
+                    cmd.Parameters.AddWithValue("@Semail", Text_Semail.Text);
+                    cmd.Parameters.AddWithValue("@Sphone", Text_SPhone.Text);
+                    cmd.Parameters.AddWithValue("@Saddress", Text_SAddress.Text);
+                    cmd.Parameters.AddWithValue("@Scity", Text_SCity.Text);
+                    cmd.Parameters.AddWithValue("@Spincode", Text_SPincode.Text);
+                    cmd.Parameters.AddWithValue("@Rname", Text_RName.Text);
+                    cmd.Parameters.AddWithValue("@Remail", Text_REmail.Text);
+                    cmd.Parameters.AddWithValue("@Rphone", Text_RPhone.Text);
+                    cmd.Parameters.AddWithValue("@Raddress", Text_RAddress.Text);
+                    cmd.Parameters.AddWithValue("@Rcity", Text_RCity.Text);
+                    cmd.Parameters.AddWithValue("@Rpincode", Text_SPincode.Text);
+                    cmd.Parameters.AddWithValue("@weight", Text_Weight.Text);
+                    cmd.Parameters.AddWithValue("@height", Text_Height.Text);
+                    cmd.Parameters.AddWithValue("@length", Text_Length.Text);
+                    cmd.Parameters.AddWithValue("@width", Text_Width.Text);
+                    int i = cmd.ExecuteNonQuery();
                     con.Close();
+                    if (i != 0)
+                    {
+                        Label_Result.Text = "Shippment Requested Success Fully..!";
+                        con.Close();
+                    }
+                    else
+                    {
+                        Label_Result.Text = "There is an error while Requesying Shippment..!";
+                        con.Close();
+                    }
                 }
             }
             catch (Exception ex)
@@ -61,35 +92,3 @@ namespace Logis
         }   
     }
 }
-
-
-/*select* from shipment_tbl
-
-  alter procedure insertValues
-  (
-  @Sname varchar(100),
-  @Semail varchar(100),
-  @Sphone int,
-  @Saddress varchar(100),
-  @Scity varchar(100),
-  @Spincode int,
-  @Rname varchar(100),
-  @Remail varchar(100),
-  @Rphone int,
-  @Raddress varchar(100),
-  @Rcity varchar(100),
-  @Rpincode int,
-  @weight int,
-  @height int,
-  @length int,
-  @width int
-  )
-  as begin
-  insert into logis_tbl values('mohan','hello@gmail.com','hello',50,123456789)
-  insert into shipment_tbl(Sname, Semail, Sphone, Saddress, Scity, Spincode, Rname, Remail, Rphone, Raddress, Rcity, Rpincode, weight, height, length, width) 
-  values(@Sname, @Semail, @Sphone, @Saddress, @Scity, @Spincode, @Rname, @Remail, @Rphone, @Raddress, @Rcity, @Rpincode, @weight, @height, @length, @width)
-  end
-
-  alter table shipment_tbl
-  add constraint DFStatus  default 'under progress' for Status
-*/

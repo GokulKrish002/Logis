@@ -71,8 +71,10 @@
       <div class="container" data-aos="fade-up">
 
         <div>
-          <iframe style="border:0; width: 100%; height: 340px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" ></iframe>
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31089.972414735043!2d80.29425049999999!3d13.0835548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526f4b4e489a39%3A0x3ae8b94e34343247!2sChennai%20Port%20Trust%2C%20Chennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1670682711635!5m2!1sen!2sin" width="100%" height="340" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+
         </div>
+          <asp:Label ID="lblmsg" runat="server" Text=""></asp:Label>
 
         <div class="row gy-4 mt-4">
 
@@ -82,7 +84,7 @@
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h4>Location:</h4>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>Maduraivayul Kaashiv</p>
               </div>
             </div>
 
@@ -90,7 +92,7 @@
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h4>Email:</h4>
-                <p>info@example.com</p>
+                <p>Kaashiv@gmail.com</p>
               </div>
             </div>
 
@@ -105,7 +107,7 @@
           </div>
 
           <div class="col-lg-8">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form" runat="server">
+              <form id="form1" runat="server">
               <div class="row">
                 <div class="col-md-6 form-group">
                     <asp:TextBox ID="TextBox1" runat="server" class="form-control" placeholder="Your Name" required=""></asp:TextBox>
@@ -118,15 +120,13 @@
                   <asp:TextBox ID="TextBox3" runat="server" class="form-control" name="subject"  placeholder="Subject" required=""></asp:TextBox>
               </div>
               <div class="form-group mt-3">
+                  <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
                   <asp:TextBox ID="TextBox4" runat="server" class="form-control" name="message"  placeholder="Message" required="" Height="100"></asp:TextBox>
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"> <asp:Button ID="Button1" runat="server" Text="Button" type="submit" CssClass="btn btn-primary" /></div>
-            </form>
+                  <br />
+                  <br />
+              <div class="text-center"> <asp:Button ID="Button1" runat="server" Text="Button" type="submit" CssClass="btn btn-primary" OnClick="Button1_Click1" Width="100px"/></div>
+              </form>
           </div>
 
         </div>

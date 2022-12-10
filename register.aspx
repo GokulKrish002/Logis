@@ -13,17 +13,16 @@
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 </head>
 <body>
-
   <div class="container">
     <div class="row px-3">
       <div class="col-lg-5 col-xl-5 card flex-row mx-auto px-0">
         <div class="card-body">
           <h4 class="title text-center mt-4">
-            Login into account
+            Sign-In
           </h4>
           <form class="form-box px-3" runat="server" method="post">
             <div class="form-input">
-                <asp:TextBox ID="TextBox1" runat="server"  type="name" name="" placeholder="name" ></asp:TextBox>
+                <asp:TextBox ID="TextBox1" runat="server"  type="name" name="" placeholder="Name"></asp:TextBox>
             </div>
             <div class="form-input">
                 <asp:TextBox ID="TextBox2" runat="server" type="email" name="" placeholder="Email"></asp:TextBox>
@@ -32,13 +31,13 @@
                 <asp:TextBox ID="TextBox3" runat="server" type="password" name="" placeholder="Password"></asp:TextBox>
             </div>
                <div class="form-input">
-                <asp:TextBox ID="TextBox4" runat="server" type="age" name="" placeholder="age"></asp:TextBox>
+                <asp:TextBox ID="TextBox4" runat="server" type="age" name="" placeholder="Age"></asp:TextBox>
             </div>
                <div class="form-input">
-                <asp:TextBox ID="TextBox5" runat="server" type="number" name="" placeholder="phone"></asp:TextBox>
+                <asp:TextBox ID="TextBox5" runat="server" type="number" name="" placeholder="Phone"></asp:TextBox>
             </div>
             <div class="mb-3">
-                  <asp:Button ID="Button1" runat="server" Text="Register" type="submit" class="btn btn-block text-uppercase" OnClick="Button1_Click" />
+                  <asp:Button ID="Button1" runat="server" Text="Register" type="submit" class="btn btn-block text-uppercase btn btn-primary translate-middle rounded-pill" OnClick="Button1_Click" />
             </div>
               <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 
@@ -52,7 +51,7 @@
               or login with
             </div>
 
-            <div class="row mb-3">
+           <!-- <div class="row mb-3">
               <div class="col-4">
                 <a href="#" class="btn btn-block btn-social btn-facebook">
                   facebook
@@ -70,7 +69,7 @@
                   twitter
                 </a>
               </div>
-            </div>
+            </div> -->
 
             <hr class="my-4">
 
