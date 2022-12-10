@@ -32,6 +32,7 @@
         }
         .auto-style9 {
             width: 805px;
+            height: 49px;
         }
         .auto-style10 {
             width: 805px;
@@ -42,6 +43,7 @@
         }
         .auto-style15 {
             width: 51px;
+            height: 49px;
         }
         .auto-style16 {
             width: 51px;
@@ -85,7 +87,7 @@
             height: 50px;
         }
         .auto-style33 {
-            width: 369px;
+            width: 252px;
             height: 50px;
         }
         .auto-style34 {
@@ -115,6 +117,9 @@
         }
         .auto-style43 {
             height: 37px;
+        }
+        .auto-style44 {
+            height: 49px;
         }
     </style>
 </head>
@@ -178,26 +183,26 @@
             <tr>
                 <td class="auto-style20">&nbsp;</td>
                 <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox7" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Text_SName" runat="server"></asp:TextBox>
 &nbsp;&nbsp; email&nbsp;
-                    <asp:TextBox ID="TextBox8" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Text_Semail" runat="server"></asp:TextBox>
 &nbsp; phone&nbsp;
-                    <asp:TextBox ID="TextBox9" runat="server" Width="165px"></asp:TextBox>
+                    <asp:TextBox ID="Text_SPhone" runat="server" Width="165px"></asp:TextBox>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style15">&nbsp;</td>
+                <td class="auto-style15"></td>
                 <td class="auto-style9" colspan="2">
                     <asp:Label ID="Label3" runat="server" Text="address"></asp:Label>
-                    <asp:TextBox ID="TextBox3" runat="server" Height="30px" Width="690px"></asp:TextBox>
+                    <asp:TextBox ID="Text_SAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
-                <td>
+                <td class="auto-style44">
                     <asp:Label ID="Label1" runat="server" Text="City"></asp:Label>
-                    <asp:TextBox ID="TextBox1" runat="server" Height="30px" Width="208px"></asp:TextBox>
+                    <asp:TextBox ID="Text_SCity" runat="server" Height="30px" Width="208px"></asp:TextBox>
 &nbsp;&nbsp;
                     <asp:Label ID="Label2" runat="server" Text="Pincode"></asp:Label>
-                    <asp:TextBox ID="TextBox2" runat="server" Height="30px" Width="208px"></asp:TextBox>
+                    <asp:TextBox ID="Text_SPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -213,11 +218,11 @@
             <tr>
                 <td class="auto-style20">&nbsp;</td>
                 <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="TextBox10" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Text_RName" runat="server"></asp:TextBox>
 &nbsp;&nbsp; email&nbsp;
-                    <asp:TextBox ID="TextBox11" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="Text_REmail" runat="server"></asp:TextBox>
 &nbsp; phone&nbsp;
-                    <asp:TextBox ID="TextBox12" runat="server" Width="165px"></asp:TextBox>
+                    <asp:TextBox ID="Text_RPhone" runat="server" Width="165px"></asp:TextBox>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
             </tr>
@@ -225,14 +230,14 @@
                 <td class="auto-style16">&nbsp;</td>
                 <td class="auto-style10" colspan="2">
                     <asp:Label ID="Label4" runat="server" Text="address"></asp:Label>
-                    <asp:TextBox ID="TextBox4" runat="server" Height="30px" Width="690px"></asp:TextBox>
+                    <asp:TextBox ID="Text_RAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
                 <td class="auto-style11">
                     <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
-                    <asp:TextBox ID="TextBox5" runat="server" Height="30px" Width="208px"></asp:TextBox>
+                    <asp:TextBox ID="Text_RCity" runat="server" Height="30px" Width="208px"></asp:TextBox>
 &nbsp;&nbsp;
                     <asp:Label ID="Label6" runat="server" Text="Pincode"></asp:Label>
-                    <asp:TextBox ID="TextBox6" runat="server" Height="30px" Width="208px"></asp:TextBox>
+                    <asp:TextBox ID="Text_RPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -250,22 +255,28 @@
             <tr>
                 <td class="auto-style38"></td>
                 <td class="auto-style39" colspan="3">
-                    <asp:TextBox ID="TextBox13" runat="server" Height="29px" Width="238px"></asp:TextBox>
+                    <asp:TextBox ID="Text_Weight" runat="server" Height="29px" Width="238px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label7" runat="server" Text="Height"></asp:Label>
-                    <asp:TextBox ID="TextBox14" runat="server" Height="30px"></asp:TextBox>
+                    <asp:TextBox ID="Text_Height" runat="server" Height="30px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label8" runat="server" Text="Length"></asp:Label>
-                    <asp:TextBox ID="TextBox15" runat="server" Height="30px"></asp:TextBox>
+                    <asp:TextBox ID="Text_Length" runat="server" Height="30px"></asp:TextBox>
 &nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label9" runat="server" Text="Width"></asp:Label>
-                    <asp:TextBox ID="TextBox16" runat="server" Height="30px"></asp:TextBox>
+                    <asp:TextBox ID="Text_Width" runat="server" Height="30px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
                 <td class="auto-style40"></td>
                 <td class="auto-style41" colspan="3">
-                    <asp:Button ID="Button1" runat="server" Text="Describe your shipment" />
+                    <asp:Button ID="Btn_Submit" runat="server" Text="Book shipment" OnClick="Btn_Submit_Click1"  />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style20"></td>
+                <td class="auto-style22" colspan="3">
+                    <asp:Label ID="Label_Result" runat="server"></asp:Label>
                 </td>
             </tr>
         </table>
