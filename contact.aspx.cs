@@ -15,7 +15,7 @@ namespace Logis
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label_Name.Text = Request.QueryString["FirstName"];
         }
 
      
@@ -86,6 +86,21 @@ namespace Logis
                 TextBox3.Text = "Email sent sucessfully.";
             }
         }
+
+        protected void btn_Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx?FirstName=" + Label_Name.Text + "");
         }
+
+        protected void btn_About_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("about.aspx?FirstName=" + Label_Name.Text + "");
+        }
+
+        protected void btn_Services_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("services.aspx?FirstName=" + Label_Name.Text + "");
+        }
+    }
     }
 

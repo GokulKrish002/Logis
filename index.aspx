@@ -48,11 +48,10 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a href="index.aspx" class="active">Home</a></li>
-          <li><a href="about.aspx">About</a></li>
-          <li><a href="services.aspx">Services</a></li>
-          <li><a href="pricing.aspx">Pricing</a></li>
-          <li><a href="contact.aspx">Contact</a></li> 
-          <li><asp:Label ID="Label1" runat="server" Text="Label" class="get-a-quote"></asp:Label></li>
+          <li><asp:LinkButton ID="btn_About" runat="server" OnClick="btn_About_Click">About</asp:LinkButton></li>
+          <li><asp:LinkButton ID="btn_Services" runat="server" OnClick="btn_Services_Click">Services</asp:LinkButton></li>
+          <li><asp:LinkButton ID="btn_Contact" runat="server" OnClick="btn_Contact_Click">Contact</asp:LinkButton></li>
+          <li><asp:Label ID="Label_Name" runat="server" Text="Label" class="get-a-quote"></asp:Label></li>
         </ul>
       </nav>
 
@@ -604,7 +603,7 @@
     </section>
 
   </main>
-  <footer id="footer" class="footer">
+<footer id="footer" class="footer">
 
     <div class="container">
       <div class="row gy-4">
@@ -612,7 +611,7 @@
           <a href="index.aspx" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
-          <p>Tomorrow fermentum hate eu feugiat lide par naso tierra Just need nada land see great derita valies darta donna mare fermentum aculis eu no diam phasellus.</p>
+          <p>To enable collaboration, the company brings together customers, research and academic institutions, industry partners, and logistics experts within the DHL business divisions.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
@@ -621,39 +620,26 @@
           </div>
         </div>
 
-        <div class="col-lg-2 col-6 footer-links">
+        
+
+        <div class="col-lg-2 col-6 footer-links col-md-3 ms-md-auto">
           <h4>Useful Links</h4>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Terms of service</a></li>
-            <li><a href="#">Privacy policy</a></li>
+            <li><a href="about.aspx">About us</a></li>
+            <li><a href="services.aspx">Services</a></li>
+            <li><a href="Terms%20Of%20Serives.aspx">Terms of service</a></li>
+            <li><a href="Privacy%20Policy.aspx">Privacy policy</a></li>
           </ul>
         </div>
-
-        <div class="col-lg-2 col-6 footer-links">
-          <h4>Our Services</h4>
-           <ul>
-            <li><a href="#">Shipping</a></li>
-            <li><a href="#">Available Transport</a></li>
-            <li><a href="#">Product Management</a></li>
-            <li><a href="#">Marketing</a></li>
-            <li><a href="#">Import Export</a></li>
-          </ul>
-        </div>
-
-        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start col-md-3 ms-md-auto">
           <h4>Contact Us</h4>
           <p>
-            A108 Porur<br>
-            Tamil Nadu, TN 600116<br>
-            India <br><br>
-              <strong>Phone:</strong> +91 8072263008<br>
-              <strong>Phone:</strong> +91 6379447044<br>
-              <strong>Phone:</strong> +91 8838444907<br>
-              <strong>Phone:</strong> +91 9524296826<br>
-            <strong>Email:</strong> gsms@gmail.com<br>
+            310,Block, 3, behind reliance digital, Radial Nagar, Mogappair West, Ambattur Industrial Estate <br>
+            Chennai, 600037<br>
+            Tamil Nadu <br><br>
+            <strong>Phone:</strong> +1 5589 55488 55<br>
+            <strong>Email:</strong> info@example.com<br>
           </p>
 
         </div>
@@ -667,7 +653,7 @@
       </div>
       <div class="credits">
         
-        Designed by <a href="#">GSMS LOGISTIC</a>
+        Designed by <a href="#">Logis</a>
       </div>
     </div>
 

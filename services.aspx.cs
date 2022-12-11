@@ -14,7 +14,8 @@ namespace Logis
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Label_Name.Text = Request.QueryString["FirstName"];
+            LabelName2.Text = Request.QueryString["FirstName"];
         }
 
         protected void Btn_Submit_Click1(object sender, EventArgs e)
@@ -89,6 +90,21 @@ namespace Logis
             {
                 Label_Result.Text = ex.Message;
             }
-        }   
+        }
+
+        protected void btn_Home_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("index.aspx?FirstName=" + Label_Name.Text + "");
+        }
+
+        protected void btn_About_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("about.aspx?FirstName=" + Label_Name.Text + "");
+        }
+
+        protected void btn_Contact_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("contact.aspx?FirstName=" + Label_Name.Text + "");
+        }
     }
 }

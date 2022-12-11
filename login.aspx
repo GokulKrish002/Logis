@@ -36,35 +36,10 @@
               <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
 
             <div class="text-right">
-              <a href="#" class="forget-link">
+              <a href="forgot_pwd.aspx" class="forget-link">
                 Forget Password?
               </a>
             </div>
-
-            <div class="text-center mb-3">
-              or login with
-            </div>
-
-            <!--<div class="row mb-3">
-              <div class="col-4">
-                <a href="#" class="btn btn-block btn-social btn-facebook">
-                  facebook
-                </a>
-              </div>
-
-              <div class="col-4">
-                <a href="#" class="btn btn-block btn-social btn-google">
-                  google
-                </a>
-              </div>
-
-              <div class="col-4">
-                <a href="#" class="btn btn-block btn-social btn-twitter">
-                  twitter
-                </a>
-              </div>
-            </div>-->
-
             <hr class="my-4">
 
             <div class="text-center mb-2">
