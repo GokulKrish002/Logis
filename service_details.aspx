@@ -61,7 +61,7 @@
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <h2>Service Details</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+             <p>We deliver end-to-end, tailor-made solutions to our clients with our expertise in warehousing and transportation services. Their logistics solutions are meant to give organizations a competitive advantage by making them affordable and simple to use. </p>
             </div>
           </div>
         </div>
@@ -92,26 +92,26 @@
               <a href="#">Warehousing</a>
             </div>
 
-            <h4>Enim qui eos rerum in delectus</h4>
-            <p>Nam voluptatem quasi numquam quas fugiat ex temporibus quo est. Quia aut quam quod facere ut non occaecati ut aut. Nesciunt mollitia illum tempore corrupti sed eum reiciendis. Maxime modi rerum.</p>
+           <h4>Enim qui eos rerum in delectus</h4>
+            <p>Their logistics solutions are meant to give organizations a competitive advantage by making them affordable and simple to use. In today's competitive market, integrated service offerings ensure that the customer's supply chain </p>
           </div>
 
           <div class="col-lg-8">
             <img src="assets/img/service-details.jpg" alt="" class="img-fluid services-img">
-            <h3>Temporibus et in vero dicta aut eius lidero plastis trand lined voluptas dolorem ut voluptas</h3>
+           <h3>Founded in 2005 as a private company in Ahmedabad, Gujarat, they have come a long way</h3>
             <p>
-              Blanditiis voluptate odit ex error ea sed officiis deserunt. Cupiditate non consequatur et doloremque consequuntur. Accusantium labore reprehenderit error temporibus saepe perferendis fuga doloribus vero. Qui omnis quo sit. Dolorem architecto eum et quos deleniti officia qui.
+             Tripath Logistics is a rapidly growing logistics solutions company that specializes in offering comprehensive, efficient, and customer-focused solutions suited to the demands of its customers. 
             </p>
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+           <ul>
+              <li><i class="bi bi-check-circle"></i> <span>An Indian logistics company specializing in delivery to your doorsteps</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>The supply chain is becoming increasingly digitized to improve on all fronts</span></li>
+              <li><i class="bi bi-check-circle"></i> <span>Consider how well their supply chain</span></li>
             </ul>
-            <p>
-              Est reprehenderit voluptatem necessitatibus asperiores neque sed ea illo. Deleniti quam sequi optio iste veniam repellat odit. Aut pariatur itaque nesciunt fuga.
+             <p>
+              As a result, when selecting a logistics partner for your operations, consider how well their supply chain and activities are digitally connected.
             </p>
             <p>
-              Sunt rem odit accusantium omnis perspiciatis officia. Laboriosam aut consequuntur recusandae mollitia doloremque est architecto cupiditate ullam. Quia est ut occaecati fuga. Distinctio ex repellendus eveniet velit sint quia sapiente cumque. Et ipsa perferendis ut nihil. Laboriosam vel voluptates tenetur nostrum. Eaque iusto cupiditate et totam et quia dolorum in. Sunt molestiae ipsum at consequatur vero. Architecto ut pariatur autem ad non cumque nesciunt qui maxime. Sunt eum quia impedit dolore alias explicabo ea.
+             The supply chain is becoming increasingly digitized to improve on all fronts, resulting in increased complexity and functional interdependence. Using manual and outmoded methods, or working as silo units disconnected from the grid, logistics service providers can no longer sustain competitive operational efficiency. 
             </p>
           </div>
 
@@ -131,7 +131,7 @@
           <a href="index.aspx" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
-          <p>To enable collaboration, the company brings together customers, research and academic institutions, industry partners, and logistics experts within the DHL business divisions.</p>
+         <p>As a result, when selecting a logistics partner for your operations, consider how well their supply chain and activities are digitally connected.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

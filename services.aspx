@@ -116,6 +116,9 @@
         .auto-style44 {
             height: 49px;
         }
+        body{
+            background-color:cornflowerblue;
+        }
     </style>
 </head>
 <body>
@@ -174,11 +177,11 @@
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style21" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Text_SName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; email&nbsp;
+&nbsp;&nbsp; Email&nbsp;
                     <asp:TextBox ID="Text_Semail" runat="server"></asp:TextBox>
-&nbsp; phone&nbsp;
+&nbsp; Phone&nbsp;
                     <asp:TextBox ID="Text_SPhone" runat="server" Width="165px"></asp:TextBox>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
@@ -186,7 +189,7 @@
             <tr>
                 <td class="auto-style15"></td>
                 <td class="auto-style9" colspan="2">
-                    <asp:Label ID="Label3" runat="server" Text="address"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Address"></asp:Label>
                     <asp:TextBox ID="Text_SAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
                 <td class="auto-style44">
@@ -209,11 +212,11 @@
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style21" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style21" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Text_RName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; email&nbsp;
+&nbsp;&nbsp; Email&nbsp;
                     <asp:TextBox ID="Text_REmail" runat="server"></asp:TextBox>
-&nbsp; phone&nbsp;
+&nbsp; Phone&nbsp;
                     <asp:TextBox ID="Text_RPhone" runat="server" Width="165px"></asp:TextBox>
                 </td>
                 <td class="auto-style22">&nbsp;</td>
@@ -221,7 +224,7 @@
             <tr>
                 <td class="auto-style16">&nbsp;</td>
                 <td class="auto-style10" colspan="2">
-                    <asp:Label ID="Label4" runat="server" Text="address"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
                     <asp:TextBox ID="Text_RAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                 </td>
                 <td class="auto-style11">
@@ -262,7 +265,7 @@
             <tr>
                 <td class="auto-style40"></td>
                 <td class="auto-style41" colspan="3">
-                    <asp:Button ID="Btn_Submit" runat="server" Text="Book shipment" OnClick="Btn_Submit_Click1"  />
+                    <asp:Button ID="Btn_Submit" runat="server" Text="Book shipment" OnClick="Btn_Submit_Click1" class="btn btn-primary" />
                 </td>
             </tr>
             <tr>
@@ -289,9 +292,6 @@
             <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
-
-        
-
         <div class="col-lg-2 col-6 footer-links col-md-3 ms-md-auto">
           <h4>Useful Links</h4>
           <ul>
@@ -311,22 +311,17 @@
             <strong>Phone:</strong> +1 5589 55488 55<br>
             <strong>Email:</strong> info@example.com<br>
           </p>
-
         </div>
-
       </div>
     </div>
-
     <div class="container mt-4">
       <div class="copyright">
         &copy; Copyright <strong><span>Logis</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        
         Designed by <a href="#">Logis</a>
       </div>
     </div>
-
   </footer>
   <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
   <div id="preloader"></div>

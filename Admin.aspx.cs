@@ -27,13 +27,18 @@ namespace Logis
                 SqlDataAdapter da = new SqlDataAdapter(cmd);
                 DataTable dt = new DataTable();
                 da.Fill(dt);
-                GridViewShipping.DataSource = dt;
+                /*GridViewShipping.DataSource = dt;*/
                 con.Close();
             }
             catch (Exception ex)
             {
                 Response.Write(ex.Message);
             }
+        }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            refresh();
         }
     }
 }

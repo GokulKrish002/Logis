@@ -29,51 +29,43 @@
             height: 70px;
         }
         .auto-style15 {
-            width: 51px;
+            width: 28px;
             height: 49px;
         }
         .auto-style16 {
-            width: 51px;
+            width: 28px;
             height: 70px;
         }
         .auto-style17 {
-            width: 51px;
-            height: 102px;
-        }
-        .auto-style18 {
-            width: 632px;
+            width: 28px;
             height: 102px;
         }
         .auto-style19 {
             height: 102px;
         }
         .auto-style20 {
-            width: 51px;
-            height: 51px;
-        }
-        .auto-style21 {
-            width: 632px;
+            width: 28px;
             height: 51px;
         }
         .auto-style22 {
             height: 51px;
         }
         .auto-style34 {
-            width: 51px;
+            width: 28px;
             height: 50px;
         }
         .auto-style35 {
             height: 50px;
         }
         .auto-style38 {
-            width: 51px;
+            width: 28px;
             height: 38px;
         }
         .auto-style39 {
             height: 38px;
         }
         .auto-style40 {
-            width: 51px;
+            width: 28px;
             height: 243px;
         }
         .auto-style41 {
@@ -82,6 +74,15 @@
         .auto-style44 {
             height: 49px;
         }
+        body{
+            background-color:cornflowerblue;
+        }
+        
+        .auto-style45 {
+            height: 243px;
+            width: 734px;
+        }
+        
     </style>
 </head>
 <body>
@@ -123,23 +124,21 @@
         <table class="auto-style4">
             <tr>
                 <td class="auto-style17"></td>
-                <td class="auto-style18">Hello
+                <td class="auto-style19" colspan="2">Hello
                     <asp:Label ID="Label_Name" runat="server" Text="Name"></asp:Label>
                 </td>
-                <td class="auto-style19"></td>
             </tr>
             <tr>
                 <td class="auto-style20"></td>
-                <td class="auto-style21">From address :</td>
-                <td class="auto-style22"></td>
+                <td class="auto-style22" colspan="2">From address :</td>
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style22" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style22" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Text_SName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; email&nbsp;
+&nbsp;&nbsp; Email&nbsp;
                     <asp:TextBox ID="Text_Semail" runat="server"></asp:TextBox>
-&nbsp; phone&nbsp;
+&nbsp; Phone&nbsp;
                     <asp:TextBox ID="Text_SPhone" runat="server" Width="165px"></asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label1" runat="server" Text="City"></asp:Label>
@@ -149,7 +148,7 @@
             <tr>
                 <td class="auto-style15"></td>
                 <td class="auto-style44" colspan="2">
-                    <asp:Label ID="Label3" runat="server" Text="address"></asp:Label>
+                    <asp:Label ID="Label3" runat="server" Text="Address"></asp:Label>
                     <asp:TextBox ID="Text_SAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                     <asp:Label ID="Label2" runat="server" Text="Pincode"></asp:Label>
                     <asp:TextBox ID="Text_SPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
@@ -161,11 +160,11 @@
             </tr>
             <tr>
                 <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style22" colspan="2">name&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style22" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Text_RName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; email&nbsp;
+&nbsp;&nbsp; Email&nbsp;
                     <asp:TextBox ID="Text_REmail" runat="server"></asp:TextBox>
-&nbsp; phone&nbsp;
+&nbsp; Phone&nbsp;
                     <asp:TextBox ID="Text_RPhone" runat="server" Width="165px"></asp:TextBox>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
@@ -175,7 +174,7 @@
             <tr>
                 <td class="auto-style16">&nbsp;</td>
                 <td class="auto-style11" colspan="2">
-                    <asp:Label ID="Label4" runat="server" Text="address"></asp:Label>
+                    <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
                     <asp:TextBox ID="Text_RAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
                     <asp:Label ID="Label6" runat="server" Text="Pincode"></asp:Label>
                     <asp:TextBox ID="Text_RPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
@@ -206,10 +205,63 @@
                     &nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style40"></td>
-                <td class="auto-style41" colspan="2">
-                    <asp:GridView ID="GridViewShipping" runat="server">
+                <td class="auto-style40" rowspan="2"></td>
+                <td class="auto-style45">
+                    <asp:Label ID="Label11" runat="server" Text="Sender Details"></asp:Label>
+                    <asp:GridView ID="GridViewShipping" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="id" DataSourceID="SqlDataSource1" ForeColor="Black" Width="714px">
+                        <Columns>
+                            <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" ReadOnly="True" SortExpression="id" />
+                            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
+                            <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
+                            <asp:BoundField DataField="phone" HeaderText="phone" SortExpression="phone" />
+                            <asp:BoundField DataField="address" HeaderText="address" SortExpression="address" />
+                            <asp:BoundField DataField="city" HeaderText="city" SortExpression="city" />
+                            <asp:BoundField DataField="pincode" HeaderText="pincode" SortExpression="pincode" />
+                        </Columns>
+                        <FooterStyle BackColor="#CCCCCC" />
+                        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+                        <RowStyle BackColor="White" Font-Size="10pt" />
+                        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                        <SortedAscendingHeaderStyle BackColor="#808080" />
+                        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                        <SortedDescendingHeaderStyle BackColor="#383838" />
                     </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:Logis_dbConnectionString %>" SelectCommand="SELECT * FROM [Sender_tbl]"></asp:SqlDataSource>
+                </td>
+                <td class="auto-style41">
+                    <asp:Label ID="Label10" runat="server" Text="Receiver Details"></asp:Label>
+                    <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" BackColor="#CCCCCC" BorderColor="#999999" BorderStyle="Solid" BorderWidth="3px" CellPadding="4" CellSpacing="2" DataKeyNames="id" DataSourceID="SqlDataSource2" ForeColor="Black">
+                        <Columns>
+                            <asp:BoundField DataField="id" HeaderText="id" InsertVisible="False" ReadOnly="True" SortExpression="id" />
+                            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
+                            <asp:BoundField DataField="email" HeaderText="email" SortExpression="email" />
+                            <asp:BoundField DataField="phone" HeaderText="phone" SortExpression="phone" />
+                            <asp:BoundField DataField="address" HeaderText="address" SortExpression="address" />
+                            <asp:BoundField DataField="city" HeaderText="city" SortExpression="city" />
+                            <asp:BoundField DataField="pincode" HeaderText="pincode" SortExpression="pincode" />
+                            <asp:BoundField DataField="weight" HeaderText="weight" SortExpression="weight" />
+                            <asp:BoundField DataField="height" HeaderText="height" SortExpression="height" />
+                            <asp:BoundField DataField="length" HeaderText="length" SortExpression="length" />
+                            <asp:BoundField DataField="width" HeaderText="width" SortExpression="width" />
+                        </Columns>
+                        <FooterStyle BackColor="#CCCCCC" />
+                        <HeaderStyle BackColor="Black" Font-Bold="True" ForeColor="White" />
+                        <PagerStyle BackColor="#CCCCCC" ForeColor="Black" HorizontalAlign="Left" />
+                        <RowStyle BackColor="White" Font-Size="10pt" />
+                        <SelectedRowStyle BackColor="#000099" Font-Bold="True" ForeColor="White" />
+                        <SortedAscendingCellStyle BackColor="#F1F1F1" />
+                        <SortedAscendingHeaderStyle BackColor="Gray" />
+                        <SortedDescendingCellStyle BackColor="#CAC9C9" />
+                        <SortedDescendingHeaderStyle BackColor="#383838" />
+                    </asp:GridView>
+                    <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:Logis_dbConnectionString %>" SelectCommand="SELECT [id], [name], [email], [phone], [address], [city], [pincode], [weight], [height], [length], [width] FROM [Shipment_tbl]"></asp:SqlDataSource>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style41" colspan="2">
+                    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Refresh" />
                 </td>
             </tr>
             <tr>

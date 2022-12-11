@@ -125,7 +125,7 @@
               </div>
                   <br />
                   <br />
-              <div class="text-center"> <asp:Button ID="Button1" runat="server" Text="Button" type="submit" CssClass="btn btn-primary" OnClick="Button1_Click1" Width="100px"/></div>
+              <div class="text-center"> <asp:Button ID="Button1" runat="server" Text="Send" type="submit" CssClass="btn btn-primary" OnClick="Button1_Click1" Width="100px"/></div>
           </div>
 
         </div>

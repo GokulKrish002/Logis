@@ -169,6 +169,7 @@
     <Content Include="contact.aspx" />
     <Content Include="assets\img\img.jpg" />
     <Content Include="forgot_pwd.aspx" />
+    <Content Include="home.aspx" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="Privacy Policy.aspx" />
@@ -209,6 +210,13 @@
     </Compile>
     <Compile Include="forgot_pwd.aspx.designer.cs">
       <DependentUpon>forgot_pwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="home.aspx.designer.cs">
+      <DependentUpon>home.aspx</DependentUpon>
     </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>

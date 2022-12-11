@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Logis.index" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Logis.home" %>
 
 <!DOCTYPE html>
 
@@ -35,11 +35,9 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.aspx" class="active">Home</a></li>
-          <li><asp:LinkButton ID="btn_About" runat="server" OnClick="btn_About_Click">About</asp:LinkButton></li>
-          <li><asp:LinkButton ID="btn_Services" runat="server" OnClick="btn_Services_Click">Services</asp:LinkButton></li>
-          <li><asp:LinkButton ID="btn_Contact" runat="server" OnClick="btn_Contact_Click">Contact</asp:LinkButton></li>
-          <li><asp:Label ID="Label_Name" runat="server" Text="Label" class="get-a-quote"></asp:Label></li>
+          <li>
+              <asp:Button ID="btn_Login" runat="server" OnClick="btn_Login_Click" Text="Button" />
+            </li>
         </ul>
       </nav>
     </div>
@@ -92,7 +90,7 @@
             <div>
               <h4 class="title">Product Weight</h4>
               <p class="description">An Indian logistics company specializing in delivery to your doorsteps. 377 sites in 92 countries are served. Security freight network member. As a value-added service, it also provides obedient help and marine insurance.</p>
-              <a href="#.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="100">
@@ -100,7 +98,7 @@
             <div>
               <h4 class="title">pain system</h4>
               <p class="description">The supply chain is becoming increasingly digitized to improve on all fronts, resulting in increased complexity and functional interdependence.</p>
-              <a href="#.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
 
@@ -109,7 +107,7 @@
             <div>
               <h4 class="title">But as you observe</h4>
               <p class="description">As a result, when selecting a logistics partner for your operations, consider how well their supply chain and activities are digitally connected.</p>
-              <a href="#.aspx" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
+              <a href="#" class="readmore stretched-link"><span>Learn More</span><i class="bi bi-arrow-right"></i></a>
             </div>
           </div>
         </div>
@@ -171,7 +169,7 @@
               <div class="card-img">
                 <img src="assets/img/storage-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Storage</a></h3>
+              <h3><a href="#" class="stretched-link">Storage</a></h3>
               <p>For the logistics system to work effectively, a specialized customer service crew is required.</p>
             </div>
           </div>
@@ -180,7 +178,7 @@
               <div class="card-img">
                 <img src="assets/img/logistics-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Logistics</a></h3>
+              <h3><a href="#" class="stretched-link">Logistics</a></h3>
               <p>Customer management is becoming increasingly vital for firms, as customer loyalty accounts for the majority of revenue.</p>
             </div>
           </div>
@@ -189,7 +187,7 @@
               <div class="card-img">
                 <img src="assets/img/cargo-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Cargo</a></h3>
+              <h3><a href="#" class="stretched-link">Cargo</a></h3>
               <p>Do they have the business ethics to be a trusted partner to your firm, even if they have all of the needed attributes such as technology.</p>
             </div>
           </div>
@@ -198,7 +196,7 @@
               <div class="card-img">
                 <img src="assets/img/trucking-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Trucking</a></h3>
+              <h3><a href="#" class="stretched-link">Trucking</a></h3>
               <p>Connectivity, procedures, systems, and support teams in place? Look into crucial areas.</p>
             </div>
           </div>
@@ -207,7 +205,7 @@
               <div class="card-img">
                 <img src="assets/img/packaging-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Packaging</a></h3>
+              <h3><a href="#" class="stretched-link">Packaging</a></h3>
                <p>These questions will help you determine whether you and the provider can have a long-term relationship.</p>
             </div>
           </div>
@@ -216,7 +214,7 @@
               <div class="card-img">
                 <img src="assets/img/warehousing-service.jpg" alt="" class="img-fluid">
               </div>
-              <h3><a href="service-details.aspx" class="stretched-link">Warehousing</a></h3>
+              <h3><a href="#" class="stretched-link">Warehousing</a></h3>
                <p>When things don't go according to plan and schedule in the logistics industry, experience counts.</p>
             </div>
           </div>
