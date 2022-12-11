@@ -13,6 +13,8 @@ namespace Logis
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            Label_Name.Text = Request.QueryString["FirstName"];
+            btn_name.Text = Request.QueryString["FirstName"];
             refresh();
         }
         public void refresh()

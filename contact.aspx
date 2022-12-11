@@ -54,7 +54,7 @@
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
               <h2>Contact</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p>Over the years, they have earned the trust of their partners and clients in a variety of industries, including Oil & Gas, Power & Alternative Energy, Heavy & Light Engineering, Automobile & Components, and Telecom, to handle their global projects.</p>
             </div>
           </div>
         </div>
@@ -142,7 +142,7 @@
           <a href="index.aspx" class="logo d-flex align-items-center">
             <span>Logis</span>
           </a>
-          <p>To enable collaboration, the company brings together customers, research and academic institutions, industry partners, and logistics experts within the DHL business divisions.</p>
+          <p>An Indian logistics company specializing in delivery to your doorsteps. 377 sites in 92 countries are served. Security freight network member. As a value-added service, it also provides obedient help and marine insurance.</p>
           <div class="social-links d-flex mt-4">
             <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
             <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>

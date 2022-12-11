@@ -95,11 +95,7 @@
       <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.aspx">Home</a></li>
-          <li><a href="about.aspx">About</a></li>
-          <li><a href="services.aspx">Services</a></li>
-          <li><a href="pricing.aspx">Pricing</a></li>
-          <li><a href="contact.aspx">Contact</a></li>
+      <li><asp:Label ID="btn_name" runat="server" Text="Label" class="get-a-quote"></asp:Label></li>
         </ul>
       </nav>
     </div>
@@ -110,8 +106,7 @@
         <div class="container position-relative">
           <div class="row d-flex justify-content-center">
             <div class="col-lg-6 text-center">
-              <h2>Services</h2>
-              <p>Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <h2>Admin Page</h2>
             </div>
           </div>
         </div>
