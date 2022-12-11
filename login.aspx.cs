@@ -33,7 +33,15 @@ namespace Logis
                     TextBox1.Text = " ";
                     TextBox2.Text = " ";
                     string input = readed["name"].ToString();
-                    Response.Redirect("index.aspx?FirstName="+input+"");
+                    string type = readed["usertype"].ToString();
+                    if (type == "Admin")
+                    {
+                        Response.Redirect("admin.aspx?FirstName=" + input + "");
+                    }
+                    else
+                    {
+                        Response.Redirect("index.aspx?FirstName=" + input + "");
+                    }
                 }
                 else
                 {

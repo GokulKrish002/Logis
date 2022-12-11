@@ -25,17 +25,6 @@
             width: 100%;
             height: 91px;
         }
-        .auto-style11 {
-            height: 70px;
-        }
-        .auto-style15 {
-            width: 28px;
-            height: 49px;
-        }
-        .auto-style16 {
-            width: 28px;
-            height: 70px;
-        }
         .auto-style17 {
             width: 28px;
             height: 102px;
@@ -49,13 +38,6 @@
         }
         .auto-style22 {
             height: 51px;
-        }
-        .auto-style34 {
-            width: 28px;
-            height: 50px;
-        }
-        .auto-style35 {
-            height: 50px;
         }
         .auto-style38 {
             width: 28px;
@@ -71,9 +53,6 @@
         .auto-style41 {
             height: 243px;
         }
-        .auto-style44 {
-            height: 49px;
-        }
         body{
             background-color:cornflowerblue;
         }
@@ -81,6 +60,9 @@
         .auto-style45 {
             height: 243px;
             width: 734px;
+        }
+        .auto-style46 {
+            height: 120px;
         }
         
     </style>
@@ -126,77 +108,6 @@
                 <td class="auto-style17"></td>
                 <td class="auto-style19" colspan="2">Hello
                     <asp:Label ID="Label_Name" runat="server" Text="Name"></asp:Label>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style20"></td>
-                <td class="auto-style22" colspan="2">From address :</td>
-            </tr>
-            <tr>
-                <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style22" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="Text_SName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; Email&nbsp;
-                    <asp:TextBox ID="Text_Semail" runat="server"></asp:TextBox>
-&nbsp; Phone&nbsp;
-                    <asp:TextBox ID="Text_SPhone" runat="server" Width="165px"></asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label1" runat="server" Text="City"></asp:Label>
-                    <asp:TextBox ID="Text_SCity" runat="server" Height="30px" Width="211px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style15"></td>
-                <td class="auto-style44" colspan="2">
-                    <asp:Label ID="Label3" runat="server" Text="Address"></asp:Label>
-                    <asp:TextBox ID="Text_SAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
-                    <asp:Label ID="Label2" runat="server" Text="Pincode"></asp:Label>
-                    <asp:TextBox ID="Text_SPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style20"></td>
-                <td class="auto-style22" colspan="2">To address :</td>
-            </tr>
-            <tr>
-                <td class="auto-style20">&nbsp;</td>
-                <td class="auto-style22" colspan="2">Name&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:TextBox ID="Text_RName" runat="server"></asp:TextBox>
-&nbsp;&nbsp; Email&nbsp;
-                    <asp:TextBox ID="Text_REmail" runat="server"></asp:TextBox>
-&nbsp; Phone&nbsp;
-                    <asp:TextBox ID="Text_RPhone" runat="server" Width="165px"></asp:TextBox>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label5" runat="server" Text="City"></asp:Label>
-                    <asp:TextBox ID="Text_RCity" runat="server" Height="30px" Width="209px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style16">&nbsp;</td>
-                <td class="auto-style11" colspan="2">
-                    <asp:Label ID="Label4" runat="server" Text="Address"></asp:Label>
-                    <asp:TextBox ID="Text_RAddress" runat="server" Height="30px" Width="690px"></asp:TextBox>
-                    <asp:Label ID="Label6" runat="server" Text="Pincode"></asp:Label>
-                    <asp:TextBox ID="Text_RPincode" runat="server" Height="30px" Width="208px"></asp:TextBox>
-                </td>
-            </tr>
-            <tr>
-                <td class="auto-style34"></td>
-                <td class="auto-style35" colspan="2">Weight&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dimensions</td>
-            </tr>
-            <tr>
-                <td class="auto-style38"></td>
-                <td class="auto-style39" colspan="2">
-                    <asp:TextBox ID="Text_Weight" runat="server" Height="29px" Width="238px"></asp:TextBox>
-                    &nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label7" runat="server" Text="Height"></asp:Label>
-                    <asp:TextBox ID="Text_Height" runat="server" Height="30px"></asp:TextBox>
-                    &nbsp;&nbsp;&nbsp;
-                    <asp:Label ID="Label8" runat="server" Text="Length"></asp:Label>
-                    <asp:TextBox ID="Text_Length" runat="server" Height="30px"></asp:TextBox>
-                    &nbsp;&nbsp;
-                    <asp:Label ID="Label9" runat="server" Text="Width"></asp:Label>
-                    <asp:TextBox ID="Text_Width" runat="server" Height="30px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
@@ -260,7 +171,7 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style41" colspan="2">
+                <td class="auto-style46" colspan="2">
                     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Refresh" />
                 </td>
             </tr>
